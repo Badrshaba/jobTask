@@ -131,12 +131,6 @@ curl -X DELETE http://localhost:3000/api/products/PRODUCT_ID
 
 ---
 
-## Postman Collection
-
-A Postman collection is included in the repository: `postman_collection.json` for easy API testing.
-
----
-
 ## Design Decisions
 
 * **App Router** for modern Next.js features and routing.
@@ -145,22 +139,6 @@ A Postman collection is included in the repository: `postman_collection.json` fo
 * **Zod** for type-safe validation.
 * **Persisted Cart** with localStorage for better UX.
 * **Tailwind + Shadcn** for fast, modern UI.
-
----
-
-## Known Limitations
-
-* No authentication implemented for admin panel.
-* Images must be provided via URL.
-
----
-
-## Future Improvements
-
-* Add authentication for admin panel.
-* Implement image uploads (Cloudinary/S3).
-* Add payment integration.
-* Add automated tests.
 
 ---
 
