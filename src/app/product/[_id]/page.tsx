@@ -20,7 +20,7 @@ export default async function ProductDetails({ params }: { params: Promise<{ _id
             className='lg:w-6/12 w-full h-full  group-hover:scale-110 transition-transform duration-500'
           />
           <div className='lg:w-6/12 w-full flex flex-col space-y-2 justify-around gap-2'>
-            <h2 className='text-2xl font-bold text-center'>{product.title}</h2>
+            <h2 className='text-2xl font-bold text-center'>{product.title.toUpperCase()}</h2>
             <hr />
             <p className='text-md font-medium text-center text-muted-foreground'>{product.description}</p>
             <div className='flex justify-evenly gap-2'>

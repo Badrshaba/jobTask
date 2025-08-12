@@ -62,8 +62,8 @@ export default function SearchComponent() {
             onClick={() => router.push(`/product/${product._id}`)}
             className='flex items-center border-b py-2 justify-around hover:bg-slate-100 cursor-pointer gap-2'>
             <Image
-              src={'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/wireless-headphones-LqpBeruF3f0RCUBwcARZlX0cQuiOyO.png'}
-              alt={'product image'}
+              src={product.image}
+              alt={product.title}
               width={300}
               height={300}
               className='w-10 h-10  rounded-full hover:scale-110 transition-transform duration-500'
