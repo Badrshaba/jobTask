@@ -14,6 +14,7 @@ This is a mini eCommerce platform built with **Next.js (App Router)**, **TypeScr
 * **Product Details Page**: Displays title, description, price, category, and image.
 * **Cart Page**: Add/remove products, update quantity, and display total.
 * **State Management**: Implemented using **Zustand** with `persist` middleware to store cart data in `localStorage`.
+* **Forms**: Managed using **React Hook Form** for robust form handling and validation.
 * **Styling**: Tailwind CSS + Shadcn UI components.
 
 ### Backend (API)
@@ -34,6 +35,7 @@ This is a mini eCommerce platform built with **Next.js (App Router)**, **TypeScr
 * Create, edit, and delete products via a secure admin interface.
 * Image input accepts URL only.
 * Connected directly to API endpoints.
+* Forms are powered by **React Hook Form** for better performance and validation handling.
 
 ---
 
@@ -42,6 +44,7 @@ This is a mini eCommerce platform built with **Next.js (App Router)**, **TypeScr
 * **Next.js** (App Router, API routes)
 * **TypeScript**
 * **Zustand** (with `persist` middleware)
+* **React Hook Form**
 * **Tailwind CSS** + **Shadcn UI**
 * **MongoDB Atlas** + **Mongoose**
 * **Zod** for validation
@@ -138,6 +141,7 @@ A Postman collection is included in the repository: `postman_collection.json` fo
 
 * **App Router** for modern Next.js features and routing.
 * **Zustand** for lightweight, flexible state management.
+* **React Hook Form** for efficient, controlled form handling.
 * **Zod** for type-safe validation.
 * **Persisted Cart** with localStorage for better UX.
 * **Tailwind + Shadcn** for fast, modern UI.
