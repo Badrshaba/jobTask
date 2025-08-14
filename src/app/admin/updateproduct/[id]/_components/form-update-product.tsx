@@ -82,7 +82,7 @@ export default function FormUpdateProduct({ product }: { product: Product }) {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className='space-y-8 w-9/12'>
+        className='space-y-8  w-11/12 md:w-9/12'>
         <FormField
           control={form.control}
           name='title'

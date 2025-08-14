@@ -10,7 +10,7 @@ type Props = {
 
 export default function CardForCart({ product, increment, decrement, remove }: Props) {
   return (
-    <div className='flex justify-between my-5 shadow-sm p-2 rounded-lg items-center'>
+    <div className='flex justify-between min-w-[34rem] my-5 shadow-sm p-2 rounded-lg items-center'>
       <Image
         src={product.image}
         alt={product.title}

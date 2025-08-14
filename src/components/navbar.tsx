@@ -10,10 +10,10 @@ export default function Navbar() {
   // Navigation
   const router = useRouter();
   return (
-    <header className='flex justify-between w-10/12 mx-auto items-center p-4 sticky top-0 z-50 bg-white '>
+    <header className='flex justify-between w-11/12 md:w-10/12 mx-auto items-center px-2 md:px-4 p-4 sticky top-0 z-50 bg-white '>
       <Link
         href='/'
-        className='text-3xl font-bold'>
+        className='text-xl font-semibold md:text-3xl md:font-bold cursor-pointer'>
         eCommerce
       </Link>
 
